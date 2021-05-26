@@ -12,11 +12,12 @@
         <h1>Level Quiz</h1>
         <p>Pilih Level yang anda inginkan</p>
         <form action="#" method="GET">
-            <input type="radio" name="lvl" id="lvl1" value="lv1">
+            <input type="radio" name="lvl" id="lvl1" value="lv1" onclick="hpsErr('lvl1','radioErr')">
             <label for="lvl1">Level One</label><br>
-            <input type="radio" name="lvl" id="lvl2" value="lv2">
+            <input type="radio" name="lvl" id="lvl2" value="lv2" onclick="hpsErr('lvl2','radioErr')">
             <label for="lvl2">Level Two</label>
         </form>
+        <span id="radioErr"></span>
         <p>Klik tombol Start untuk mulai</p>
         <button class="exit">Exit</button>
         <button class="next_btn" onclick="mulai()">Start</button>

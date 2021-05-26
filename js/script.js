@@ -13,6 +13,7 @@ let counter; // membuat setInterval
 let waktuQuiz; // waktu kuis
 let counterLine; // membuat setInterval 
 let waktuLine = 0; // waktu line kuis
+let lineWidth; 
 
 function setKuis() {
     const level = sessionStorage.getItem("level");
@@ -22,10 +23,12 @@ function setKuis() {
         totalQuiz = quiz_level1.length;
         soal = quiz_level1;
         waktuQuiz = 15;
+        lineWidth = 31;
     } else {
         totalQuiz = quiz_level2.length;
         soal = quiz_level2;
         waktuQuiz = 5;
+        lineWidth = 11;
     }
     // buat index soal acak
     while (acak.length < totalQuiz) {
@@ -111,7 +114,7 @@ function starTimer(time) {
 }
 
 function lineTimer(time) {
-    counterLine = setInterval(timer, 31);
+    counterLine = setInterval(timer, lineWidth);
     function timer() {
         time++;
         waktu_line.style.width = time + "px";
