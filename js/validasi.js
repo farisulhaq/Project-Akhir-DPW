@@ -49,9 +49,24 @@ next.onclick = () => {
 }
 // level html klik start
 function mulai() {
-    const lvl1 = document.querySelector('#lvl1');
-    sessionStorage.setItem("level",lvl1.checked)
-    location.href = "quiz.html";
+    if (cekRadio()) {
+        const lvl1 = document.querySelector('#lvl1');
+        sessionStorage.setItem("level",lvl1.checked)
+        location.href = "quiz.html";
+    }
 }
-
+// cek radio button
+function cekRadio() {
+    const radio = document.getElementsByName("lvl");
+    const radioERR = document.querySelector('#radioErr');
+    if ((radio[0].checked) || (radio[1].checked)){
+        console.log("Radio Terpilih");
+        return true;
+    } else {
+        radioERR.style.color = "red";
+        radioERR.style.fontSize = "12px";
+        radioERR.innerHTML = "Anda belum Memilih Level Quiz";
+        return false;
+    }
+}
 
