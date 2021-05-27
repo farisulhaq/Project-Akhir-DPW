@@ -84,37 +84,48 @@ const quiz_level1 = [
         jawab : 1
     },
     {
-        soal : "",
+        soal : "Elemen-elemen pada bagian Head akan mengerjakan tugas-tugas berikut, KECUALI...",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "Menyediakan judul dokumen",
+            "Memberitahu browser untuk membuat form pencarian",
+            "Menyediakan metode untuk mengirim pesan ke tipe browser",
+            "Memindah ke baris baru"
+        ],
+        jawab : 3
+    },
+    {
+        soal : "Atribut yang berfungsi untuk mengatur warna teks dokumen, dengan warna hitam sebagai warna default adalah...",
+        pilih : [
+            "Background",
+            "Bgcolor",
+            "Text",
+            "Vlink"
+        ],
+        jawab : 2
+    },
+    {
+        soal : "Atribut yang berfungsi untuk mengatur warna active link dokumen dengan default merah adalah...",
+        pilih : [
+            "Alink",
+            "Bgcolor",
+            "Text",
+            "Vlink"
         ],
         jawab : 0
     },
     {
-        soal : "",
+        soal : "Perintah HTML untuk membuat teks berjalan adalah…",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "Form",
+            "Body",
+            "Marquee",
+            "Tr"
         ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "",
-            "",
-            "",
-            ""
-        ],
-        jawab : 0
+        jawab : 2
     },
     
 ]
+
 
 const quiz_level2 = [
     {
@@ -126,6 +137,16 @@ const quiz_level2 = [
         soal : "Manakah yang termasuk Activity lifecycle ?",
         pilih : ["onKeypress","onSubmit","onStart","onClick"],
         jawab : 2
-    }
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
 ]
     
