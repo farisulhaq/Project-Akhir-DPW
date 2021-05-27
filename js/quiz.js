@@ -1,7 +1,3 @@
-
-
-
-
 const quiz_level1 = [
     {
         soal : "Apa kepanjangan dari HTML?",
