@@ -131,3 +131,8 @@ section .quiz_option .option{
     text-transform: uppercase;
     user-select: none;
 }
+@media only screen and (max-width: 600px) {
+    .quiz_box {
+        width: 99%;
+    }
+}
