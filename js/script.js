@@ -81,8 +81,7 @@ function nxQuiz(Element){
     let answer = parseInt(Element.id);
     console.log(answer,currentQuiz.jawab);
     if (answer === currentQuiz.jawab) {
-        scor += 10;
-        sessionStorage.setItem("scor",scor);
+        scor += 3.33;
         console.log(scor);
     } else {
         console.log("salah");
@@ -95,6 +94,7 @@ function nxQuiz(Element){
         lineTimer(waktuLine);
         nextQuiz();
     } else {
+        sessionStorage.setItem("scor", Math.ceil(scor));
         location.href = "hasil.html";
     }
 }

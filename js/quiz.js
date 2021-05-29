@@ -125,22 +125,242 @@ const quiz_level1 = [
 
 const quiz_level2 = [
     {
-        soal : "Manakah yang termasuk Activity lifecycle ?",
-        pilih : ["onKeypress","onSubmit","onStart","onClick"],
-        jawab : 2
-    },
-    {
-        soal : "Manakah yang termasuk Activity lifecycle ?",
-        pilih : ["onKeypress","onSubmit","onStart","onClick"],
-        jawab : 2
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
     },
     {
         soal : "",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "true",
+            "false"
         ],
         jawab : 0
     },
