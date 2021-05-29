@@ -125,7 +125,7 @@ const quiz_level1 = [
 
 const quiz_level2 = [
     {
-        soal : "",
+        soal : "Apakah Kamu Cantik",
         pilih : [
             "true",
             "false"
