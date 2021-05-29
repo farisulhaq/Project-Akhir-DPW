@@ -119,7 +119,176 @@ const quiz_level1 = [
         ],
         jawab : 2
     },
-    
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    },
+    {
+        soal : "",
+        pilih : [
+            "",
+            "",
+            "",
+            ""
+        ],
+        jawab : 0
+    }    
 ]
 
 
@@ -363,6 +532,6 @@ const quiz_level2 = [
             "false"
         ],
         jawab : 0
-    },
+    }
 ]
     
