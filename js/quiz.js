@@ -93,11 +93,11 @@ const quiz_level1 = [
         soal : "Atribut yang berfungsi untuk mengatur warna teks dokumen, dengan warna hitam sebagai warna default adalah...",
         pilih : [
             "Background",
-            "Bgcolor",
+            "color",
             "Text",
             "Vlink"
         ],
-        jawab : 2
+        jawab : 1
     },
     {
         soal : "Atribut yang berfungsi untuk mengatur warna active link dokumen dengan default merah adalah...",
@@ -120,181 +120,191 @@ const quiz_level1 = [
         jawab : 2
     },
     {
-        soal : "",
+        soal : "HTML adalah salah satu bagian paling esensial dari sebuah website. hal itu karena...",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "HTML adalah struktur utama pada sebuah website.",
+            "HTML adalah bahasa yang mudah dipahami.",
+            "HTML adalah bahasa pemrograman pertama, sehingga hampir semua teknologi berbasis web dan aplikasi menggunakannya.",
+            "HTML adalah bahasa markah dengan fungsi utama untuk memberi style pada halaman website"
         ],
         jawab : 0
     },
     {
-        soal : "",
+        soal : "pak arif punya sebuah array pada javascript. ia ingin langsung mengambil setiap elemennya dengan menggunakan looping. maka yang harus beliau tulis adalah?",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "for i in range(array)",
+            "for i in array",
+            "for(i of array)",
+            "for(i in array)"
+        ],
+        jawab : 2
+    },
+    {
+        soal : "menotasikan area dari website yang terlihat oleh user dan biasanya dijadikan sebagai value pada salah satu attribut di tag meta adalah?",
+        pilih : [
+            "viewport",
+            "charset",
+            "perspective",
+            "display"
         ],
         jawab : 0
     },
     {
-        soal : "",
+        soal : "Salah satu cara membuat halaman web yang responsive adalah dengan menggunakan media query. berikut ini cara yang beneran dalam penulisan media query adalah?",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "$media",
+            "&media",
+            "@media",
+            "*media"
+        ],
+        jawab : 2
+    },
+    {
+        soal : "Javscript mengenal yang namanya variabel scope. variabel yang dideklarasikan di dalam function dan tak dapat dipanggil di luar function secara bebas adalah?",
+        pilih : [
+            "global scope",
+            "function scope",
+            "usual scope",
+            "local scope"
+        ],
+        jawab : 3
+    },
+    {
+        soal : "Berikut ini yang merupakan konsep layouting untuk halaman website reponsive adalah?",
+        pilih : [
+            "Vbox",
+            "Clayout",
+            "grid",
+            "boxSize"
+        ],
+        jawab : 2
+    },
+    {
+        soal : "Salah satu bagian di CSS untuk membuat halaman yang responsive dimana pada bagian tersebut kita mendefinisikan luas minimal dan maksimal dari halaman web yang ingin kita beri style adalah?",
+        pilih : [
+            "grid",
+            "flexbox",
+            "multiple-column",
+            "media query"
+        ],
+        jawab : 3
+    },
+    {
+        soal : "Dalam konsep box model, bagian yang menjadi pembungkus dari beberapa item sering disebut?",
+        pilih : [
+            "plastic",
+            "box",
+            "container",
+            "stack"
+        ],
+        jawab : 2
+    },
+    {
+        soal : "pak dengklek ingin membuat halaman web dimana beberapa item bisa lurus sejajar secara horizontal pada sebuah container, maka script yang harus ditulis pak dengklek adalah?",
+        pilih : [
+            "display : flex;flex-direction:row;",
+            "display : flex;flex-direction:rows;",
+            "display : felx;flex-direction:row;",
+            "display : flex;flex-direction:column;"
         ],
         jawab : 0
     },
     {
-        soal : "",
+        soal : "Berikut ini adalah beberapa property dalam flexbox kecuali?",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "order",
+            "flex-grow",
+            "flex-origin",
+            "flex-shrink"
+        ],
+        jawab : 2
+    },
+    {
+        soal : "konsep layouting pada CSS yang menganalogikan penempatan elemen atau item seperti kotak-kotak adalah...",
+        pilih : [
+            "flexbox",
+            "multiple-column",
+            "box-sizing",
+            "grid"
+        ],
+        jawab : 3
+    },
+    {
+        soal : "property untuk mengatur align content secara horizontal dalam grid layout adalah?",
+        pilih : [
+            "align-content",
+            "justify-content",
+            "center-content",
+            "content-margin"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "Berikut ini yang bukan termasuk cara pendeklarasian variabel dalam javascript adalah?",
+        pilih : [
+            "var nama;",
+            "int nama;",
+            "const nama;",
+            "let nama;"
         ],
         jawab : 0
     },
     {
-        soal : "",
+        soal : "bagian dari javascript yang berfungsi untuk memproses 2 atau lebih item baik itu berupa angka atau string adalah?",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "tipe data",
+            "variabel",
+            "operator",
+            "looping"
         ],
-        jawab : 0
+        jawab : 2
     },
     {
-        soal : "",
+        soal : "Tipe data pada javascript untuk menyimpan banyak nilai dalam 1 variabel adalah?",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "list",
+            "stack",
+            "array",
+            "konstanta"
         ],
-        jawab : 0
+        jawab : 2
     },
     {
-        soal : "",
+        soal : "berikut ini yang merupakan jenis fungsi di javascript adalah...",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "function declaration",
+            "function expression",
+            "arrow function",
+            "semua benar"
         ],
-        jawab : 0
+        jawab : 3
     },
     {
-        soal : "",
+        soal : "dalam konsep DOM dikenal yang namanya element selection. Bagian elemen HTML yang bisa dipilih atau diambil adalah,kecuali?",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "tag",
+            "value",
+            "id",
+            "class"
         ],
-        jawab : 0
-    },
+        jawab : 1
+    },    
     {
-        soal : "",
+        soal : "Type form HTML untuk menerima masukan berupa pilihan, dan pilihan yang dapat dipilih bisa lebih dari satu adalah...",
         pilih : [
-            "",
-            "",
-            "",
-            ""
+            "Radio",
+            "Password",
+            "Checkbox",
+            "Submit"
         ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "",
-            "",
-            "",
-            ""
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "",
-            "",
-            "",
-            ""
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "",
-            "",
-            "",
-            ""
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "",
-            "",
-            "",
-            ""
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "",
-            "",
-            "",
-            ""
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "",
-            "",
-            "",
-            ""
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "",
-            "",
-            "",
-            ""
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "",
-            "",
-            "",
-            ""
-        ],
-        jawab : 0
+        jawab : 2
     }    
 ]
 
 
 const quiz_level2 = [
     {
-        soal : "Apakah Kamu Cantik",
+        soal : "HTML adalah struktur dasar pada website",
         pilih : [
             "true",
             "false"
@@ -302,7 +312,7 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "bootstrap merupakan framework css",
         pilih : [
             "true",
             "false"
@@ -310,7 +320,31 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "untuk membuat tulisan berwarna merah kita bisa menggunkan text-color:red;",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "pada css color berfungsi sebagai warna background",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "colspan digunakan untuk menggabungkan baris pada tabel",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "colspan digunakan untuk menggabungkan kolom pada tabel",
         pilih : [
             "true",
             "false"
@@ -318,7 +352,23 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "td digunakan untuk membuat baris pada tabel",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "tr digunakan untuk membuat kolom pada tabel",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "marquee digunakan untuk membuat tulisan berjalan pada web",
         pilih : [
             "true",
             "false"
@@ -326,7 +376,15 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "kode warna putih adalah #000000",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "padding adalah mengatur jarak dari dalam",
         pilih : [
             "true",
             "false"
@@ -334,7 +392,7 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "Iframe HTML digunakan untuk menampilkan halaman web dalam halaman web",
         pilih : [
             "true",
             "false"
@@ -342,7 +400,15 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "pada html id boleh sama",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "CSS adalah bahasa yang kami gunakan untuk mendesain dokumen HTML",
         pilih : [
             "true",
             "false"
@@ -350,7 +416,7 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "jquery merupakan framework dari javascript",
         pilih : [
             "true",
             "false"
@@ -358,7 +424,7 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "JavaScript adalah salah satu bahasa pemrograman pada website",
         pilih : [
             "true",
             "false"
@@ -366,7 +432,23 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "pada javascript int a = 10;",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "pada javascript '11' + 1 = 12",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "pada javascript '11' - 1 = 0",
         pilih : [
             "true",
             "false"
@@ -374,84 +456,12 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "pada javascript operator '%' merupakan persen",
         pilih : [
             "true",
             "false"
         ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
+        jawab : 1
     },
     {
         soal : "",
