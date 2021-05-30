@@ -464,7 +464,7 @@ const quiz_level2 = [
         jawab : 1
     },
     {
-        soal : "",
+        soal : "Apakah class termasuk selektor CSS ?",
         pilih : [
             "true",
             "false"
@@ -472,7 +472,7 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "Apakah Javascript bersifat Case Sensitif ?",
         pilih : [
             "true",
             "false"
@@ -480,7 +480,7 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "Apakah reserved keyword merupakan kata kunci yang digunakan pada Javascript ?",
         pilih : [
             "true",
             "false"
@@ -488,7 +488,23 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "Didalam CSS penulisan id selector menggunakan tanda (.) ?",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "Apakah syntax berikut benar, body {color;black:}",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "Apakah #demo merupakan contoh dari selector id ?",
         pilih : [
             "true",
             "false"
@@ -496,7 +512,15 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "Penulisan kode CSS dalam HTML tidak memerlukan tag <style> ?",
+        pilih : [
+            "true",
+            "false"
+        ],
+        jawab : 1
+    },
+    {
+        soal : "Apakah onclick termasuk sebuah event ?",
         pilih : [
             "true",
             "false"
@@ -504,39 +528,15 @@ const quiz_level2 = [
         jawab : 0
     },
     {
-        soal : "",
+        soal : "tag <table> digunakan untuk membuat sebuah form ?",
         pilih : [
             "true",
             "false"
         ],
-        jawab : 0
+        jawab : 1
     },
     {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
-        pilih : [
-            "true",
-            "false"
-        ],
-        jawab : 0
-    },
-    {
-        soal : "",
+        soal : "Apakah ode CSS,HTML, dan Javascript dapat digabung dalam satu file HTML ?",
         pilih : [
             "true",
             "false"
