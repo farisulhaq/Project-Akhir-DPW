@@ -3,6 +3,8 @@ const soalQuiz = document.querySelector('.quiz_text'); // mengambil elemet pada 
 const optionQuiz = document.querySelector('.quiz_option'); // mengambil elemet pada class quiz_option (tempat pilihan)
 const waktu = document.querySelector('.timer_sec'); // mengambil elemet pada class time_sec (waktu)
 const waktu_line = document.querySelector('header .time_line'); // mengambil elemet pada class time_sec (waktu)
+const nama = sessionStorage.getItem("nama");
+const nim = sessionStorage.getItem("nim");
 
 let temp = 0; // buat random soal
 let scor = 0; // buat scor
@@ -16,15 +18,19 @@ let waktuLine = 0; // waktu line kuis
 let lineWidth; 
 
 function setKuis() {
+    document.querySelector('.nama').innerHTML = nama;
+    document.querySelector('.nim').innerHTML = nim;
     const level = sessionStorage.getItem("level");
     let totalQuiz;
     let soal;
     if (level === "true") {
+        sessionStorage.setItem("jnsLevel","Level One");
         totalQuiz = quiz_level1.length;
         soal = quiz_level1;
         waktuQuiz = 15;
         lineWidth = 31;
     } else {
+        sessionStorage.setItem("jnsLevel","Level Two");
         totalQuiz = quiz_level2.length;
         soal = quiz_level2;
         waktuQuiz = 5;
@@ -75,8 +81,7 @@ function nxQuiz(Element){
     let answer = parseInt(Element.id);
     console.log(answer,currentQuiz.jawab);
     if (answer === currentQuiz.jawab) {
-        scor += 10;
-        sessionStorage.setItem("scor",scor);
+        scor += 3.33;
         console.log(scor);
     } else {
         console.log("salah");
@@ -89,7 +94,8 @@ function nxQuiz(Element){
         lineTimer(waktuLine);
         nextQuiz();
     } else {
-        location.href = "level.html";
+        sessionStorage.setItem("scor", Math.ceil(scor));
+        location.href = "hasil.html";
     }
 }
 
