@@ -35,7 +35,7 @@ body{
 }
 .result table {
     width: 100%;
-/*     border-collapse: collapse; */
+    border-collapse: collapse;
     margin: 20px 0;
 }
 .result table td {
